@@ -12,10 +12,10 @@
     <header>Lion Around Sewing</header>
     <nav>
         <ul>
-            <li><a href="dashboard.html">Dashboard</a></li>
-            <li><a href="inventory.html">Inventory</a></li>
-            <li><a href="prodcuts.hmtl">Products</a></li>
-            <li><a href="sales.html">Sales</a></li>
+            <li><a href="{% url 'dashboard_page' %}">Dashboard</a></li>
+            <li><a href="{% url 'inventory_page' %}">Inventory</a></li>
+            <li><a href="{% url 'products_page' %}">Products</a></li>
+            <li><a href="{% url 'sales_page' %}">Sales</a></li>
         </ul>
     </nav>
 <div class="input-wrapper">
