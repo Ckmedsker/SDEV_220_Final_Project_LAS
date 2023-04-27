@@ -1,0 +1,206 @@
+header{
+    border: 2px solid; 
+    padding: 10px;
+    height: 61px;
+    left: 27px;
+    top: 29px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+}
+
+nav {
+    border: 2px solid; 
+	float: left; /* Keep the navigation bar fixed in its position */
+	width: 20%; /* Make it a section of the width of the page */
+    height: 100vh; /* extends height of nav bar */
+    width: 100%;
+    bottom: 0;
+    font-family: sans-serif;
+    font-size: 35px;
+	background-color: #3A9FDC ; /* Set the background color */
+	color: black; /* Set the font color */
+}
+
+ul {
+	list-style: none; /* Remove the bullets from the list items */
+	margin: 0; /* Remove the default margin */
+	padding: 0; /* Remove the default padding */
+}
+li {
+	padding: 20px 16px;
+	border: 1px solid #000000;
+}
+
+a {
+	color: #000000; /* Set the font color of the links */
+	text-decoration: none; /* Remove the underline from the links */
+}
+
+body{background-color:#8DD5FF;
+}
+
+*{font-size: 24px;}
+
+.input-wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3A9FDC ;
+    padding: 0.5rem;
+    width:500px;
+    color:black;
+    
+
+}
+input{
+    margin: 0 0.5rem 0 0.5rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #3A9FDC ;
+    color:black;
+}
+/* changing the color of the search bar */
+::placeholder{color:black;}
+
+.dailySales {
+box-sizing: border-box;
+
+position: absolute;
+width: 214px;
+height: 95px;
+left: 411px;
+top: 266px;
+
+background: #3A9FDC;
+border: 5px solid #000000;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+text-align: center;
+
+
+      
+  }
+
+.weeklySales {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 214px;
+    height: 95px;
+    left: 645px;
+    top: 266px;
+    
+    background: #3A9FDC;
+    border: 5px solid #000000;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+
+color: #000000;
+      }
+
+.monthlySales {
+
+box-sizing: border-box;
+
+position: absolute;
+width: 214px;
+height: 95px;
+left: 879px;
+top: 266px;
+
+background: #3A9FDC;
+border: 5px solid #000000;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+}
+
+.yearlySales{
+box-sizing: border-box;
+
+position: absolute;
+width: 214px;
+height: 88px;
+left: 1110px;
+top: 266px;
+
+background: #3A9FDC;
+border: 5px solid #000000;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+}
+
+.dailySalesData{
+box-sizing: border-box;
+
+position: absolute;
+width: 214px;
+height: 95px;
+left: 410px;
+top: 374px;
+
+background: #3A9FDC;
+border: 5px solid #000000;
+}
+
+.weeklySalesData{
+box-sizing: border-box;
+
+position: absolute;
+width: 214px;
+height: 95px;
+left: 645px;
+top: 374px;
+
+background: #3A9FDC;
+border: 5px solid #000000;
+}
+
+.monthlySalesData{
+box-sizing: border-box;
+
+position: absolute;
+width: 214px;
+height: 95px;
+left: 879px;
+top: 372px;
+
+background: #3A9FDC;
+border: 5px solid #000000;
+}
+
+.yearlySalesData{
+box-sizing: border-box;
+
+position: absolute;
+width: 214px;
+height: 95px;
+left: 1110px;
+top: 371px;
+
+background: #3A9FDC;
+border: 5px solid #000000;
+}
