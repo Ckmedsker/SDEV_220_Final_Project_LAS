@@ -9,14 +9,14 @@ from .forms import ProductForm
 
 def home(request):
     # returning a template
-    print(request)
+    #print(request)
     product = Product.objects.all()
     context = {'products': product}
     return render(request, 'accounts/dashboard.html', context)
 
 
 def addProduct(request):
-    print(request)
+    #print(request)
     form = ProductForm()
     if request.method == 'POST':
         form = ProductForm(request.POST)
@@ -37,7 +37,7 @@ def editEntry(request, id):
             form.save()
             return redirect(home)
     context = {'form': form}
-    print(context)
+    #print(context)
     # print(context['product'].product_Name)
     return render(request, 'accounts/product_form.html', context)
 
