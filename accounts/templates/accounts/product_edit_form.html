@@ -1,4 +1,10 @@
-{% extends 'accounts/main.html' %}  
+{% extends 'accounts/main.html' %}
+
+{% load static %}
+{% block extended_styling %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/edit_form.css' %}">
+{% endblock %}
+
 {% block content %}
 
 <form action="" method= "POST">
@@ -14,7 +20,7 @@
     <label for="">Size:</label>
     <label for="">Quantity:</label>
     <!-- {{form}} -->
-    <input type="submit" name="Submit Query">
+    <input type="submit" name="Submit Query" class="submit_button">
 </form>
 
 {% endblock%}

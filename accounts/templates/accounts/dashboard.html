@@ -1,17 +1,9 @@
 {% extends 'accounts/main.html' %}  {% comment %} inherting from the main  {% endcomment %}
-{% load static %}
+
 {% block content %}
 
-{% block dashboard_styling %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/css.css' %}">
-{% endblock %}
-
-<h1> Lion Around Sewing</h1>
-
-
 <div class="col-md-12">
-    <h5> Inventory Management System</h5>
-    <hr>
+    
     <div class="card card-body">
         {% comment %} link to product_form.html {% endcomment %}
         <a class= "btn btn-primary btn-sm btn-block" href="{% url 'add_product'%}">Add Product</a>
@@ -36,7 +28,7 @@
                     <td>{{product.color}}</td>
                     <td>{{product.size}}</td>
                     <td>{{product.quantity}}</td>
-                    <td><a class="btn btn-sm btn-info" href="{% url 'add_product' product.id%}">Update</a></td>
+                    <td><a class="btn btn-sm btn-info" href="{% url 'edit_product' product.id%}">Update</a></td>
                     <td><a class="btn btn-sm btn-danger" href="{% url 'delete_entry' product.id%}">Delete</a></td>
                 </tr>
             {% endfor %}
@@ -44,4 +36,4 @@
     </div>
 </div>
 
-{%endblock%}
+{% endblock %}

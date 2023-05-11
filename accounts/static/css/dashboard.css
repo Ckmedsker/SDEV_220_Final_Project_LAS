@@ -7,8 +7,9 @@
     }
 
     /* inventory management styles */
-    h5{ font-size: 1.75rem;
+    h5 { font-size: 1.75rem;
         text-align: center;
+        text-shadow: 2px 2px 3px #3984b0;
     }
 
     /* card styles */
@@ -92,3 +93,6 @@
         color: #ffffff;
         text-decoration: none;
     }
+
+    /* Headline Text */
+    #header_text:hover { text-decoration: none;}
